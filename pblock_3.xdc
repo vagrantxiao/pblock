@@ -1,0 +1,21 @@
+create_pblock pblock_1
+resize_pblock [get_pblocks pblock_1] -add {SLICE_X204Y44:SLICE_X365Y283}
+resize_pblock [get_pblocks pblock_1] -add {BUFDIV_LEAF_X78Y64:BUFDIV_LEAF_X121Y191}
+resize_pblock [get_pblocks pblock_1] -add {BUFG_FABRIC_X3Y24:BUFG_FABRIC_X4Y71}
+resize_pblock [get_pblocks pblock_1] -add {DCMAC_X0Y0:DCMAC_X0Y0}
+resize_pblock [get_pblocks pblock_1] -add {DSP58_CPLX_X6Y22:DSP58_CPLX_X11Y141}
+resize_pblock [get_pblocks pblock_1] -add {DSP_X12Y22:DSP_X23Y141}
+resize_pblock [get_pblocks pblock_1] -add {GCLK_DELAY_SSIT_X4Y48:GCLK_DELAY_SSIT_X5Y143}
+resize_pblock [get_pblocks pblock_1] -add {GCLK_PD_X6Y24:GCLK_PD_X8Y215}
+resize_pblock [get_pblocks pblock_1] -add {GCLK_TAPS_DECODE_VNOC_X2Y1:GCLK_TAPS_DECODE_VNOC_X3Y2}
+resize_pblock [get_pblocks pblock_1] -add {HSC_X0Y0:HSC_X0Y0}
+resize_pblock [get_pblocks pblock_1] -add {IRI_QUAD_X135Y204:IRI_QUAD_X245Y1163}
+resize_pblock [get_pblocks pblock_1] -add {MISR_X2Y1:MISR_X3Y2}
+resize_pblock [get_pblocks pblock_1] -add {MRMAC_X1Y0:MRMAC_X1Y0}
+resize_pblock [get_pblocks pblock_1] -add {NOC_NMU512_X2Y1:NOC_NMU512_X3Y5}
+resize_pblock [get_pblocks pblock_1] -add {NOC_NPS_VNOC_X2Y2:NOC_NPS_VNOC_X3Y11}
+resize_pblock [get_pblocks pblock_1] -add {NOC_NSU512_X2Y1:NOC_NSU512_X3Y5}
+resize_pblock [get_pblocks pblock_1] -add {RAMB18_X9Y24:RAMB18_X16Y143}
+resize_pblock [get_pblocks pblock_1] -add {RAMB36_X9Y12:RAMB36_X16Y71}
+resize_pblock [get_pblocks pblock_1] -add {URAM288_X5Y12:URAM288_X8Y71}
+resize_pblock [get_pblocks pblock_1] -add {URAM_CAS_DLY_X5Y0:URAM_CAS_DLY_X8Y2}
